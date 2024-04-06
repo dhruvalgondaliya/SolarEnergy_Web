@@ -17,6 +17,16 @@
         line-height: 69px;
     }
 
+    .erat {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+
+
+
+
+
 
 }
 
@@ -65,6 +75,15 @@
         display: none;
     }
 
+    .clita-on {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #dollar {
+        padding: 0px 61px;
+    }
+
     #btn-new-one {
         display: none;
     }
@@ -77,7 +96,7 @@
     }
 
     .carousel-item p {
-        font-size: 20 px;
+        font-size: 18px;
         line-height: 28px;
     }
 
@@ -100,12 +119,12 @@
     .img-three {
         height: 485px;
     }
-    
+
     .btn_one {
         width: 150px;
     }
 
-    
+
 
 }
 
@@ -150,12 +169,12 @@
     .img-three {
         height: 485px;
     }
- 
+
     .btn_one {
         width: 150px;
     }
 
-    #solo{
+    #solo {
         padding-top: 5px;
     }
 
@@ -165,6 +184,21 @@
 @media (min-width:320px) and (max-width:374px) {
     #telephone {
         display: none;
+    }
+
+    .diam:hover {
+        box-shadow: none;
+    }
+
+    #dolar {
+        box-shadow: none;
+    }
+
+    .custom {
+        width: 260px;
+        height: auto;
+        padding-left: 29px;
+        margin-left: 30px;
     }
 
     #btn-new-one {
@@ -199,8 +233,8 @@
     .btn_one {
         width: 150px;
     }
-    
-    #solo{
+
+    #solo {
         padding-top: 0px;
     }
 

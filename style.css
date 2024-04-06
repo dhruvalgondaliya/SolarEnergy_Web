@@ -9,12 +9,11 @@
 /* back to top button */
 #button {
     display: inline-block;
-    background-color: #ff9800;
+    background-color: #32C36C;
     width: 50px;
     height: 50px;
-    /* border-radius: 50px; */
     text-align: center;
-    border-radius: 4px;
+    border-radius: 36px;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -32,10 +31,6 @@
     font-size: 2em;
     line-height: 50px;
     color: #fff;
-}
-
-#button:active {
-    background-color: #555;
 }
 
 #button.show {
@@ -59,10 +54,12 @@ nav {
     width: 100%;
     height: 75px;
 }
-#solo{
+
+#solo {
     padding-top: 5px;
     font-size: 30px;
 }
+
 .navbar-brand {
     width: 200px;
     height: 74px;
@@ -186,4 +183,59 @@ nav {
 .nav-item a:hover,
 .btn_new:hover {
     color: #32c36c;
+}
+
+/*============= section two==================== */
+.diam {
+    width: 291px;
+    height: 190px;
+}
+
+.diam:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#dolar {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.milestone-details {
+    font-weight: bold;
+    font-size: 20px;
+    color: #999;
+    margin-top: 12px;
+}
+
+.stat-count {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sqaure_btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+    padding-top: 11px;
+    background-color: #32c36c;
+}
+
+#new-icon {
+    line-height: 11px;
+    font-size: 30px;
+}
+
+.erat {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 18px 0px 10px 0px;
+}
+
+.milestone-counter {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
 }

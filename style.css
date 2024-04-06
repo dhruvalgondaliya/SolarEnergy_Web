@@ -186,17 +186,14 @@ nav {
 }
 
 /*============= section two==================== */
-.diam {
+/* .diam {
     width: 291px;
     height: 190px;
-}
+} */
 
 .diam:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-
-#dolar {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .milestone-details {
@@ -239,3 +236,51 @@ nav {
     gap: 10px;
     flex-direction: row;
 }
+
+/* Section three */
+.energy {
+    padding: 144px 90px;
+}
+
+.energy h3 {
+    font-size: 40px;
+    line-height: 45px;
+    color: #1a2a36;
+    font-weight: 500;
+}
+
+#renew {
+    padding-top: 50px;
+}
+
+.energy h6 {
+    font-size: 16px;
+    color: #32c36c;
+    font-weight: 500;
+}
+
+.energy p {
+    color: #9b9b9b;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#man {
+    font-size: 22px;
+}
+
+.ipsum {
+    padding-left: 20px;
+    color: #9b9b9b;
+}
+
+.btn_one_now {
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding-top: 5px;
+    border-radius: 50%;
+    background-color: #32c36c;
+}
+
+/* Four section start*/

@@ -5,7 +5,7 @@
         height: 75px;
     }
 }
-
+/*=======================Size 1024px to 1348px========================*/
 @media (min-width:1024px) and (max-width:1347px) {
     #btn-new-one {
         margin-left: auto;
@@ -23,14 +23,32 @@
         margin-top: 5px;
     }
 
+    /* third section */
+    .energy h6 {
+        font-size: 16px;
+    }
 
+    .energy h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
 
+    .energy {
+        padding: 75px 73px;
+    }
 
+    .energy p {
+        font-size: 23px;
+        line-height: 25px;
+    }
 
+    #renew {
+        padding-top: 40px;
+    }
 
 }
 
-/* Size 768px to 1023px*/
+/* =======================Size 768px to 1023px==========================*/
 @media (min-width:768px) and (max-width:1023px) {
     #telephone {
         display: none;
@@ -40,6 +58,7 @@
         margin-right: 37px;
         margin-bottom: 12px;
     }
+
 
     .carousel-item h2 {
         font-size: 50px;
@@ -65,23 +84,70 @@
         height: auto;
     }
 
+    /* second section */
+    .custom {
+        width: 172px;
+        height: 209px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
 
+    .sqaure_btn {
+        width: 43px;
+        height: 43px;
+        font-size: 10px;
+    }
 
+    #dolar {
+        box-shadow: none;
+    }
 
+    .stat-count {
+        font-size: 28px;
+    }
+
+    .erat {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 2px 20px;
+    }
+
+    .milestone-counter {
+        padding: 0px 11px;
+        padding-top: 8px;
+    }
+
+    .milestone-details {
+        font-size: 18px;
+        padding-left: 16px;
+    }
+
+    /* third section */
+    .energy {
+        padding: 51px 15px;
+    }
+
+    .energy h3 {
+        font-size: 27px;
+        line-height: 35px;
+        margin-bottom: 0px;
+    }
+
+    .energy p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    #renew {
+        padding-top: 56px;
+    }
 }
 
+
+
+/*================== Size 425px to 768px====================================*/
 @media (min-width:425px) and (max-width:767px) {
     #telephone {
         display: none;
-    }
-
-    .clita-on {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #dollar {
-        padding: 0px 61px;
     }
 
     #btn-new-one {
@@ -124,14 +190,71 @@
         width: 150px;
     }
 
+    /* section two */
+    .diam:hover {
+        box-shadow: none;
+    }
 
+    .diam {
+        width: 291px;
+        height: 220px;
+    }
+
+    .custom {
+        width: 340px;
+        height: 202px;
+        padding-left: 45px;
+        margin-left: 30px;
+        border-radius: 10px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    }
+
+    .milestone-counter {
+        padding-top: 22px;
+    }
+
+    #dollar {
+        box-shadow: none;
+    }
+
+
+    /* section third*/
+    .energy {
+        padding: 48px 27px;
+    }
+
+    .energy h3 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .energy p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    #renew {
+        padding-top: 33px;
+    }
 
 }
+
+
+
 
 /*============================= Size 375px to 424px================================== */
 @media (min-width:375px) and (max-width:423px) {
     #telephone {
         display: none;
+    }
+
+    .diam:hover,
+    #dolar {
+        box-shadow: none;
+    }
+
+    .diam {
+        background: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     }
 
     #btn-new-one {
@@ -178,27 +301,53 @@
         padding-top: 5px;
     }
 
-}
-
-
-@media (min-width:320px) and (max-width:374px) {
-    #telephone {
-        display: none;
-    }
-
-    .diam:hover {
-        box-shadow: none;
-    }
-
-    #dolar {
-        box-shadow: none;
+    .milestone-counter {
+        padding-top: 8px;
     }
 
     .custom {
-        width: 260px;
-        height: auto;
-        padding-left: 29px;
+        width: 293px;
+        height: 175px;
+        padding-left: 23px;
         margin-left: 30px;
+        border-radius: 10px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    }
+
+    .erat {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    /* section third*/
+    .energy {
+        padding: 48px 27px;
+    }
+
+    .energy h3 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .energy p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    #renew {
+        padding-top: 33px;
+    }
+
+}
+
+
+
+
+/*================== Size 320px to 374px====================================*/
+@media (min-width:320px) and (max-width:374px) {
+    #telephone {
+        display: none;
     }
 
     #btn-new-one {
@@ -234,8 +383,49 @@
         width: 150px;
     }
 
+    /* second sectin */
     #solo {
         padding-top: 0px;
     }
+
+    .diam:hover {
+        box-shadow: none;
+    }
+
+    #dolar {
+        box-shadow: none;
+    }
+
+    .milestone-counter {
+        padding-top: 9px
+    }
+
+    .custom {
+        width: 286px;
+        height: 175px;
+        padding-left: 23px;
+        margin-left: 22px;
+        border-radius: 10px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    }
+
+    /* third section */
+    .energy {
+        padding: 66px 21px;
+    }
+
+    .energy h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .energy h6 {
+        font-size: 18px;
+    }
+    .energy p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
 
 }

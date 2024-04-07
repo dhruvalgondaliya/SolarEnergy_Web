@@ -55,6 +55,12 @@ nav {
     height: 75px;
 }
 
+#navbarNavDropdown {
+    background-color: white;
+    z-index: 1;
+    padding-left: 10px;
+}
+
 #solo {
     padding-top: 5px;
     font-size: 30px;
@@ -186,11 +192,6 @@ nav {
 }
 
 /*============= section two==================== */
-/* .diam {
-    width: 291px;
-    height: 190px;
-} */
-
 .diam:hover {
     border-radius: 10px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
@@ -284,3 +285,82 @@ nav {
 }
 
 /* Four section start*/
+.solar-pan {
+    width: 360px;
+    height: 469px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    color: #32C36C;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50%;
+    margin: -130px 0 25px -10px;
+    font-size: 48px;
+    top: 10px;
+    transition: all ease-in 0.3s;
+}
+
+.solar-pan:hover {
+    .service-icon {
+        background-color: #32C36C;
+        color: white;
+    }
+}
+
+.sed {
+    color: #9b9b9b;
+    font-size: 16px;
+}
+
+
+.panels {
+    position: relative;
+    top: 72px;
+    left: 34px;
+}
+
+/* section  five*/
+.complet {
+    padding: 144px 114px;
+}
+
+.Choose {
+    width: 558px;
+    padding: 66px 0px;
+}
+.Choose h3{
+    padding-top: 24px;
+    font-size: 47px;
+    line-height: 50px;
+    color: #1a2a36;
+}
+.Choose p {
+    padding-top: 24px;
+    font-size: 19px;
+    color: #9b9b9b;
+}
+.service h4{
+    font-size: 22px;
+    color:#1a2a36;
+    font-weight: 600;
+}
+.service p{
+    font-size: 19px;
+    color: #9b9b9b;
+}
+
+.btn_large {
+    width: 48px;
+    height: 48px;
+    background-color: #32C36C;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 47px;
+}

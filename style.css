@@ -326,31 +326,46 @@ nav {
 }
 
 /* section  five*/
+#workers {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 30px;
+}
+
 .complet {
-    padding: 144px 114px;
+    padding: 0px 50px;
 }
 
 .Choose {
     width: 558px;
     padding: 66px 0px;
 }
-.Choose h3{
-    padding-top: 24px;
+
+.Choose h3 {
+    padding-top: 16px;
     font-size: 47px;
     line-height: 50px;
     color: #1a2a36;
 }
+
 .Choose p {
     padding-top: 24px;
     font-size: 19px;
     color: #9b9b9b;
 }
-.service h4{
+
+.service {
+    line-height: 0px;
+}
+
+.service h4 {
     font-size: 22px;
-    color:#1a2a36;
+    color: #1a2a36;
     font-weight: 600;
 }
-.service p{
+
+.service p {
     font-size: 19px;
     color: #9b9b9b;
 }
@@ -363,4 +378,20 @@ nav {
     text-align: center;
     font-size: 25px;
     line-height: 47px;
+}
+
+/* section six */
+.wind-panel li {
+    color: #1a2a36;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.wind-panel li:hover{
+    color: #32C36C;
+    border-bottom: 2px solid #32C36C;
+}
+
+#project h2{
+    font-size: 40px;
+    font-weight: 700;
 }

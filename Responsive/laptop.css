@@ -61,6 +61,28 @@
         font-size: 14px;
     }
 
+    /* section five */
+    #workers {
+        height: auto;
+    }
+
+    .Choose h3 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+
+    .complet {
+        padding: 0px 23px;
+    }
+
+    .Choose p {
+        padding-top: 16px;
+        font-size: 15px;
+    }
+
+
+
+
 }
 
 /* =======================Size 768px to 1023px==========================*/
@@ -141,18 +163,22 @@
 
     /* third section */
     .energy {
-        padding: 51px 15px;
+        padding: 51px 98px;
     }
 
     .energy h3 {
-        font-size: 27px;
-        line-height: 35px;
+        font-size: 44px;
+        line-height: 45px;
         margin-bottom: 0px;
     }
 
+    .ipsum {
+        font-size: 16px;
+    }
+
     .energy p {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 19px;
+        line-height: 28px;
     }
 
     #renew {
@@ -177,11 +203,24 @@
         font-size: 16px;
     }
 
+    /* section five */
+    .complet {
+        padding: 0px 98px;
+    }
 
+    .Choose {
+        padding: 42px 30px;
+    }
+
+    .Choose h3 {
+        font-size: 42px;
+    }
+
+    .Choose p {
+        font-size: 17px;
+    }
 
 }
-
-
 
 /*================== Size 425px to 768px====================================*/
 @media (min-width:425px) and (max-width:767px) {
@@ -289,6 +328,26 @@
         background-color: white;
         color: #32C36C;
     }
+
+    /* five section */
+    .complet {
+        padding: 0px 5px;
+    }
+
+    .Choose {
+        width: 394px;
+    }
+
+    .Choose h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .Choose p {
+        padding-top: 19px;
+        font-size: 13px;
+    }
+
 
 
 
@@ -399,6 +458,7 @@
     .panels {
         width: 230px;
     }
+
     .solar-pan {
         width: 296px;
         height: 438px;
@@ -418,6 +478,31 @@
     #hide {
         display: block;
     }
+
+    /* five section */
+    .complet {
+        padding: 0px 5px;
+    }
+
+    .Choose {
+        width: 100%;
+        padding: 17px 0px;
+    }
+
+    .Choose h3 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .Choose p {
+        padding-top: 5px;
+        font-size: 12px;
+
+    }
+
+
+
+
 }
 
 
@@ -531,6 +616,27 @@
     #hide {
         display: block;
     }
+
+    /* section five */
+    .complet {
+        padding: 0px 5px;
+    }
+
+    .Choose {
+        width: 100%;
+        padding: 17px 0px;
+    }
+
+    .Choose h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .Choose p {
+        font-size: 19px;
+    padding: 3px 7px;
+    }
+
 
 
 

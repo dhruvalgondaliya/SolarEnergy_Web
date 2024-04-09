@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renewable Energy</title>
+
     <link rel="stylesheet" href="style.css">
     <!-- responsive link -->
     <link rel="stylesheet" href="./Responsive/laptop.css">
@@ -262,7 +263,7 @@
                             <h4 class="fw-bold" style="color: #1a2a36;">Solar Panels</h4>
                             <p class="sed">Stet stet justo dolor sed duo. Ut clita <br> sit ipsum diam lorem
                                 diam.</p>
-                            <span class="fs-6" style="color: #51cc82;">Read More <i
+                            <span class="read fs-6" style="color: #51cc82;">Read More <i
                                     class="bi bi-arrow-right"></i></span>
                         </div>
                     </div>
@@ -277,7 +278,7 @@
                             <h4 class="fw-bold" style="color: #1a2a36;">Wind Turbines</h4>
                             <p class="sed">Stet stet justo dolor sed duo. Ut clita <br> sit ipsum diam lorem
                                 diam.</p>
-                            <span class="fs-6" style="color: #51cc82;">Read More <i
+                            <span class="read fs-6" style="color: #51cc82;">Read More <i
                                     class="bi bi-arrow-right"></i></span>
                         </div>
                     </div>
@@ -292,7 +293,7 @@
                             <h4 class="fw-bold" style="color: #1a2a36;">Hydropower Plants</h4>
                             <p class="sed">Stet stet justo dolor sed duo. Ut clita <br> sit ipsum diam lorem
                                 diam.</p>
-                            <span class="fs-6" style="color: #51cc82;">Read More <i
+                            <span class="read fs-6" style="color: #51cc82;">Read More <i
                                     class="bi bi-arrow-right"></i></span>
                         </div>
                     </div>
@@ -309,7 +310,7 @@
                             <h4 class="fw-bold" style="color: #1a2a36;">Solar Panels</h4>
                             <p class="sed">Stet stet justo dolor sed duo. Ut clita <br> sit ipsum diam lorem
                                 diam.</p>
-                            <span class="fs-6" style="color: #51cc82;">Read More <i
+                            <span class="read fs-6" style="color: #51cc82;">Read More <i
                                     class="bi bi-arrow-right"></i></span>
                         </div>
                     </div>
@@ -325,7 +326,7 @@
                             <h4 class="fw-bold" style="color: #1a2a36;">Wind Turbines</h4>
                             <p class="sed">Stet stet justo dolor sed duo. Ut clita <br> sit ipsum diam lorem
                                 diam.</p>
-                            <span class="fs-6" style="color: #51cc82;">Read More <i
+                            <span class="read fs-6" style="color: #51cc82;">Read More <i
                                     class="bi bi-arrow-right"></i></span>
                         </div>
                     </div>
@@ -429,22 +430,82 @@
             </div>
             <div class="row py-2">
                 <div class="col-12">
-                    <ul class="wind-panel list-inline d-flex justify-content-center gap-3 mb-5">
-                        <li class="active mx-2" style="color: #51cc82;border-bottom: 2px solid #32C36C;">All</li>
-                        <li class="mx-2">Solar Panels</li>
-                        <li class="mx-2">Wind Turbines</li>
-                        <li class="mx-2">Hydropower Plants</li>
+                    <ul class="wind-panel list-inline d-flex justify-content-center pt-3 gap-3 mb-3">
+                        <li class="active mx-2" style="color: #51cc82;border-bottom: 2px solid #32C36C;"
+                            onclick="filter('all')">All</li>
+                        <li class="mx-2" onclick="filter('solar')">Solar Panels</li>
+                        <li class="mx-2" onclick="filter('wind')">Wind Turbines</li>
+                        <li class="mx-2" onclick="filter('hydropower')">Hydropower Plants</li>
                     </ul>
-
                 </div>
             </div>
+            <div class="row py-2 pb-" id="dataContainer">
+            </div>
+        </div>
+    </section>
 
+    <!---------------------------------------Seven Section start--------------------------------------->
+    <section>
+        <div class="container-fluid">
+            <div class="row my-2" style="background-color: #F6F7F8;">
+                <div class="col-lg-6">
+                    <img src="./img/asset 11.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6" id="quote">
+                    <div class="testing">
+                        <h5 class="fw-bold" style="color: #51cc82;font-size: 16px;">Free Quote</h5>
+                        <h2 style="color: #1a2a36;">Get A Free Quote</h2>
+                        <p style="color: #9b9b9b;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                            <br>
+                            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet <br> lorem sit clita duo
+                            justo
+                            erat amet
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6 ">
+                                <input type="text" class="form-control border-0" placeholder="Your Name"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Your Email"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Your mobile"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select border-0" style="height: 55px;">
+                                    <option value="Select A Services">Select A Services</option>
+                                    <option value="1">Sevice 1</option>
+                                    <option value="2">Sevice 2</option>
+                                    <option value="3">Sevice 3</option>
+                                    <option value="4">Sevice 4</option>
+                                    <option value="5">Sevice 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 ">
+                                <textarea class="form-control border-0 " id="" cols="10" rows="5"
+                                    placeholder="Special Note"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn_one  mt-3 rounded-pill  text-light">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
 
+    <!---------------------------------------Eight Section start--------------------------------------->
 
 
+
+
+    <!-- main js link -->
+    <script src="./js/script.js"></script>
     <!-- back to top button -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- counter js cdn -->
@@ -493,6 +554,7 @@
 
 
     </script>
+
 
 </body>
 

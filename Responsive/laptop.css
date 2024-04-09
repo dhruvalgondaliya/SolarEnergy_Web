@@ -80,13 +80,27 @@
         font-size: 15px;
     }
 
+    /* section Six */
+    #img-height {
+        width: 301px;
+    }
 
+    .solar-panel {
+        width: 320px;
+    }
 
-
+    .solar-panel p {
+        font-size: 15px;
+    }
 }
 
 /* =======================Size 768px to 1023px==========================*/
 @media (min-width:768px) and (max-width:1023px) {
+    #navbarNavDropdown {
+        position: relative;
+        top: -8px;
+    }
+
     #telephone {
         display: none;
     }
@@ -224,6 +238,11 @@
 
 /*================== Size 425px to 768px====================================*/
 @media (min-width:425px) and (max-width:767px) {
+    #navbarNavDropdown {
+        position: relative;
+        top: -8px;
+    }
+
     #telephone {
         display: none;
     }
@@ -348,7 +367,25 @@
         font-size: 13px;
     }
 
+    /* section Six */
+    #project h2 {
+        font-size: 27px;
+    }
 
+    .wind-panel li {
+        font-size: 12px;
+    }
+
+    #img-height {
+        width: 396px;
+        height: 215px;
+    }
+
+    /* section seven */
+    .testing p {
+        line-height: 21px;
+        font-size: 13px;
+    }
 
 
 
@@ -359,6 +396,11 @@
 
 /*============================= Size 375px to 424px================================== */
 @media (min-width:375px) and (max-width:423px) {
+    #navbarNavDropdown {
+        position: relative;
+        top: -8px;
+    }
+
     #telephone {
         display: none;
     }
@@ -500,7 +542,26 @@
 
     }
 
+    /* six section */
+    #img-height {
+        width: 343px;
+        height: 203px;
+    }
 
+    #project h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .wind-panel li {
+        font-size: 9px;
+    }
+
+    /* section seven */
+    .testing p {
+        line-height: 21px;
+        font-size: 10px;
+    }
 
 
 }
@@ -510,6 +571,11 @@
 
 /*================== Size 320px to 374px====================================*/
 @media (min-width:320px) and (max-width:374px) {
+    #navbarNavDropdown {
+        position: relative;
+        top: -8px;
+    }
+
     #telephone {
         display: none;
     }
@@ -634,10 +700,34 @@
 
     .Choose p {
         font-size: 19px;
-    padding: 3px 7px;
+        padding: 3px 7px;
+    }
+
+    /* section six */
+    #img-height {
+        width: 307px;
+        height: 203px;
+    }
+
+    #project h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .wind-panel li {
+        font-size: 9px;
+    }
+
+    /* section seven */
+    .testing p {
+        line-height: 21px;
+        font-size: 18px;
     }
 
 
 
 
+
+
+    
 }

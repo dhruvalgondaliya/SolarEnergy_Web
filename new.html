@@ -5,51 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--Font Awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
-        integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- boostrap cdn -->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- BOOSTRAP ICON CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- back to top button -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-    <style>
-        .solar-pan:hover {
-            /* background-color: #f0f0f0;
-            color: #333; */
-
-            .service-icon {
-                color: aqua;
-                background-color: black;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <div class="col-md-6 col-lg-4">
-        <div class="solar-pan">
-            <img src="./img/asset 4.jpeg" class="img-fluid">
-            <div class="position-relative">
-                <div class="service-icon">
-                    <i class="fa-solid fa-solar-panel "></i>
-                </div>
-                <h4>Solar Panels</h4>
-                <p>Stet stet justo dolor sed duo. Ut clita sea <br> sit ipsum diam lorem diam.</p>
+    <!DOCTYPE html>
+    <html lang="en">
 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Renewable Energy</title>
+    </head>
 
+    <body>
+        <div class="row py-2">
+            <div class="col-12">
+                <ul class="wind-panel list-inline d-flex justify-content-center gap-3 mb-5">
+                    <li class="active mx-2" style="color: #51cc82;border-bottom: 2px solid #32C36C;"
+                        onclick="filter('all')">All</li>
+                    <li class="mx-2" onclick="filter('solar')">Solar Panels</li>
+                    <li class="mx-2" onclick="filter('wind')">Wind Turbines</li>
+                    <li class="mx-2" onclick="filter('hydropower')">Hydropower Plants</li>
+                </ul>
             </div>
         </div>
-    </div>
+        <div id="dataContainer" class="row py-2">
+            <!-- Data will be populated here -->
+        </div>
 
+        <script>
+            // Sample data for demonstration
+            const solarData = [
+                { name: "Solar Panel 1", description: "Description of Solar Panel 1" },
+                { name: "Solar Panel 2", description: "Description of Solar Panel 2" },
+                // Add more data as needed
+            ];
+
+            const windData = [
+                { name: "Wind Turbine 1", description: "Description of Wind Turbine 1" },
+                { name: "Wind Turbine 2", description: "Description of Wind Turbine 2" },
+                // Add more data as needed
+            ];
+
+            const hydropowerData = [
+                { name: "Hydropower Plant 1", description: "Description of Hydropower Plant 1" },
+                { name: "Hydropower Plant 2", description: "Description of Hydropower Plant 2" },
+                // Add more data as needed
+            ];
+
+            // Function to handle filtering and populating data
+            function filter(category) {
+                let data;
+                switch (category) {
+                    case 'all':
+                        // Combine all data
+                        data = solarData.concat(windData, hydropowerData);
+                        break;
+                    case 'solar':
+                        data = solarData;
+                        break;
+                    case 'wind':
+                        data = windData;
+                        break;
+                    case 'hydropower':
+                        data = hydropowerData;
+                        break;
+                    default:
+                        console.error("Invalid category");
+                        return;
+                }
+
+                // Populate data in the UI
+                const dataContainer = document.getElementById('dataContainer');
+                dataContainer.innerHTML = ''; // Clear previous data
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.classList.add('col-lg-4', 'col-md-6', 'pioneers');
+
+                    card.innerHTML = `
+                                    <div class="img-fluid">
+                                    <h5>${item.name}</h5>
+                                    <p>${item.description}</p>
+                                    </div>
+                                     `;
+                    dataContainer.appendChild(card);
+                });
+            }
+
+        </script>
+    </body>
+
+    </html>
 
 
 </body>

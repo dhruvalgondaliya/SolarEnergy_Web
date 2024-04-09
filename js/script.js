@@ -43,9 +43,9 @@ function filter(category) {
         const card = document.createElement('div');
         card.classList.add('col-md-6', 'col-lg-4', 'pioneers');
 
-        card.innerHTML = `  <div class="col-lg-4 col-md-6 mt-2" id="main-data">
-                            <div class="pioneers">
-                                    <div class="img-fluid">
+        card.innerHTML = `  <div class=" pioneers col-lg-4 col-md-6 mt-2" >
+                            <div class="">
+                                    <div class="">
                                         <img src="./img/${item.image}" alt="" class=" rounded-3" id="img-height">
                                     </div>
                                     <div class="solar-panel pt-3">
@@ -57,7 +57,45 @@ function filter(category) {
 
         dataContainer.appendChild(card);
     });
-
-
-
 }
+
+
+// client slider
+const testimonialsContainer = document.querySelector('.testimonials-container');
+const testimonial = document.querySelector('.testimonial');
+const userImage = document.querySelector('.user-image');
+const username = document.querySelector('.username');
+const role = document.querySelector('.role');
+
+const testimonials = [
+    {
+        name: 'June Cha',
+        position: 'Sales Manager',
+        photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+        text:
+            'This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!',
+    },
+    {
+        name: 'Iida Niskanen',
+        position: 'Data Entry',
+        photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+        text:
+            "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+    },
+]
+
+let idx = 1;
+function updateTestimonials() {
+    const { name, position, photo, text } = testimonials[idx];
+    testimonial.innerHTML = text;
+    userImage.src = photo;
+    username.innerHTML = name;
+    role.innerHTML = position;
+    idx++;
+
+    if (idx > testimonials.length - 1) {
+        idx = 0;
+    }
+}
+setInterval(updateTestimonials, 10000);
+

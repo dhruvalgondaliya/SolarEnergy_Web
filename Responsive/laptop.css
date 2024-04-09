@@ -35,11 +35,11 @@
     }
 
     .energy {
-        padding: 75px 73px;
+        padding: 11px 62px;
     }
 
     .energy p {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 25px;
     }
 
@@ -92,6 +92,23 @@
     .solar-panel p {
         font-size: 15px;
     }
+
+    /* Eight section */
+    .main-card {
+        width: auto;
+        height: 369px;
+    }
+
+    .icon-body {
+        padding-top: 95px;
+        padding-left: 12px;
+    }
+
+    /* =======================nine section============ */
+    .signUP {
+        left: 120px;
+    }
+
 }
 
 /* =======================Size 768px to 1023px==========================*/
@@ -233,6 +250,23 @@
     .Choose p {
         font-size: 17px;
     }
+
+    /* Eight section */
+    .main-card {
+        width: auto;
+        height: 390px;
+    }
+
+    .icon-body {
+        padding-top: 122px;
+        padding-left: 20px;
+    }
+
+    /* =======================nine section============ */
+    .signUP {
+        left: 221px;
+    }
+
 
 }
 
@@ -383,16 +417,33 @@
 
     /* section seven */
     .testing p {
-        line-height: 21px;
-        font-size: 13px;
+        line-height: normal;
+        font-size: 23px;
     }
 
+    .testing h2 {
+        font-size: 26px;
+    }
 
+    /* Eight section */
+    .main-card {
+        width: auto;
+        height: 405px;
+    }
 
+    .icon-body {
+        padding-top: 132px;
+        padding-left: 40px;
+    }
+
+    #gallery {
+        display: none;
+    }
+
+    .signUP {
+        left: 263px;
+    }
 }
-
-
-
 
 /*============================= Size 375px to 424px================================== */
 @media (min-width:375px) and (max-width:423px) {
@@ -504,8 +555,9 @@
     .solar-pan {
         width: 296px;
         height: 438px;
-        margin-left: 39px;
-        margin-top: 18px;
+        margin-left: 27px;
+        /* margin-left: 39px;
+        margin-top: 18px; */
     }
 
     .sed {
@@ -559,15 +611,33 @@
 
     /* section seven */
     .testing p {
-        line-height: 21px;
+        line-height: 19px;
         font-size: 10px;
     }
 
+    .testing h2 {
+        font-size: 32px;
+        font-weight: 400;
+    }
 
+    /* Eight section */
+    .main-card {
+        width: auto;
+    }
+
+    .icon-body {
+        padding-left: 21px;
+        padding-top: 124px;
+    }
+
+    #gallery {
+        display: none;
+    }
+
+    .signUP {
+        left: 214px;
+    }
 }
-
-
-
 
 /*================== Size 320px to 374px====================================*/
 @media (min-width:320px) and (max-width:374px) {
@@ -585,8 +655,9 @@
     }
 
     .carousel-item h2 {
-        font-size: 39px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
     }
 
     .carousel-item p {
@@ -606,7 +677,7 @@
     .img-one,
     .img-two,
     .img-three {
-        height: 485px;
+        height: 398px;
     }
 
     .btn_one {
@@ -634,27 +705,27 @@
         width: 286px;
         height: 175px;
         padding-left: 23px;
-        margin-left: 22px;
+        margin: auto;
         border-radius: 10px;
         box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     }
 
     /* third section */
     .energy {
-        padding: 66px 21px;
+        padding: 66px 26px;
     }
 
     .energy h3 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 32px;
     }
 
     .energy h6 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .energy p {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 26px;
     }
 
@@ -662,8 +733,9 @@
     .solar-pan {
         width: 289px;
         height: 430px;
-        margin-left: 24px;
-        margin-top: 18px;
+        display: block;
+        gap: 10px;
+        margin: auto;
     }
 
     .panels {
@@ -683,7 +755,12 @@
         display: block;
     }
 
-    /* section five */
+    #just {
+        display: block;
+        justify-content: center;
+    }
+
+    /*====================== section five=========================== */
     .complet {
         padding: 0px 5px;
     }
@@ -694,40 +771,78 @@
     }
 
     .Choose h3 {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 30px;
     }
 
     .Choose p {
-        font-size: 19px;
+        font-size: 16px;
         padding: 3px 7px;
     }
 
-    /* section six */
-    #img-height {
-        width: 307px;
-        height: 203px;
+    /*=================== section six================================ */
+    #img-height,
+    .solar-panel {
+        width: 100%;
     }
 
-    #project h2 {
-        font-size: 21px;
-        font-weight: 600;
+    .pioneers {
+        width: auto;
+        height: auto;
+    }
+
+    #project h2,
+    .solar-panel h5 {
+        font-size: 18px;
+
+    }
+
+    .wind-panel {
+        gap: 17px;
     }
 
     .wind-panel li {
-        font-size: 9px;
+        font-size: 10px;
     }
 
-    /* section seven */
+    .solar-panel p {
+        font-size: 16px;
+    }
+
+    /*======================== section seven ====================*/
     .testing p {
         line-height: 21px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
+    .testing h2 {
+        font-size: 25px;
+    }
 
+    /*======================= Eight section===================== */
+    .main-card {
+        width: auto;
+        height: 354px;
+    }
 
+    .icon-body {
+        padding-left: 12px;
+        padding-top: 82px;
+    }
 
+    .text-center h2 {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
 
+    /* ======================= Nine Section =================== */
+    #gallery {
+        display: none;
+    }
 
-    
+    .signUP {
+        left: 174px;
+    }
+
 }

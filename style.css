@@ -241,7 +241,7 @@ nav {
 
 /* Section three */
 .energy {
-    padding: 144px 90px;
+    padding: 85px 90px;
 }
 
 .energy h3 {
@@ -255,7 +255,8 @@ nav {
     cursor: pointer;
 }
 
-#renew {
+.renew {
+    width: 100%;
     padding-top: 50px;
 }
 
@@ -334,7 +335,6 @@ nav {
 #workers {
     width: 100%;
     height: auto;
-    background-color: black;
     margin-top: 30px;
 }
 
@@ -411,11 +411,18 @@ nav {
     font-weight: 600;
 }
 
+.wind-panel {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
 .wind-panel li {
     color: #1a2a36;
     font-size: 16px;
     transition: all linear 0.3s;
     cursor: pointer;
+
 }
 
 .solar-panel h5 {
@@ -451,7 +458,6 @@ nav {
     line-height: 1.5;
     color: #9B9B9B;
     background-color: #fff;
-    background-repeat: no-repeat;
     background-position: right .75rem center;
     background-size: 16px 12px;
     border: 1px solid #ced4da;
@@ -465,10 +471,179 @@ nav {
 
 .testing h2 {
     font-size: 40px;
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }
-.testing p{
+
+.testing p {
     font-size: 16px;
     color: #9b9b9b;
+}
+
+/* Eight section */
+.main-card {
+    width: 363px;
+    height: 415px;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.card {
+    width: 275px;
+    height: 337px;
+}
+
+#team-img {
+    width: 355px;
+    height: auto;
+    border-top-right-radius: 25%;
+}
+
+.text-center h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icon-body {
+    display: block;
+    padding-top: 138px;
+    padding-left: 25px;
+}
+
+.main-card h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.facebook-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #32c36c;
+    border-radius: 50%;
+    color: #32c36c;
+
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.facebook-btn:hover {
+    background-color: #32C36C;
+    color: white;
+    border: none;
+}
+
+/*============================nine section======================= */
+.testimonial-container {
+    background-color: #393e46;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+}
+
+.fa-quote {
+    color: #393e46;
+}
+
+.testimonial {
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user .user-image {
+    border-radius: 50%;
+    border: 3px solid #ffd369;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.user .user-details {
+    margin-left: 10px;
+}
+
+.user .username {
+    margin: 0;
+}
+
+.user .role {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .testimonial-container {
+        padding: 20px 30px;
+    }
+
+    .fa-quote {
+        display: none;
+    }
+}
+
+/*======================footer section===================== */
+
+.btn-last {
+    width: 50px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 50%;
+    background: transparent;
+    color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+}
+
+.btn-last:hover {
+    background-color: white;
+    color: #32C36C;
+}
+
+.box.btn-link:hover {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.box.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #9B9B9B;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.signUP {
+    width: 90px;
+    height: 40px;
+    background-color: #32C36C;
+    border-radius: 10px;
+    position: absolute;
+    left: 160px;
+}
+
+.copy {
+    padding: 25px 0;
+    border-top: 1px solid rgba(256, 256, 256, .1);
 }

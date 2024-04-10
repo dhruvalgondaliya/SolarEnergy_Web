@@ -15,22 +15,20 @@
     text-align: center;
     border-radius: 36px;
     position: fixed;
+    color: white;
+    font-size: 30px;
     bottom: 30px;
     right: 30px;
+    padding-top: 3px;
     transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
 }
 
-#button::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
+.active {
+    color: #51cc82;
+    border-bottom: 2px solid #32C36C;
 }
 
 #button.show {
@@ -633,7 +631,9 @@ nav {
     font-weight: 900;
     margin-right: 10px;
 }
-
+#chenge-on{
+    font-size: 19px;
+}
 .signUP {
     width: 90px;
     height: 40px;

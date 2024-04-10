@@ -661,7 +661,6 @@
     }
 
     .carousel-item p {
-        font-size: 20 px;
         line-height: 28px;
     }
 
@@ -813,6 +812,7 @@
     .testing p {
         line-height: 21px;
         font-size: 16px;
+        
     }
 
     .testing h2 {
@@ -822,7 +822,8 @@
     /*======================= Eight section===================== */
     .main-card {
         width: auto;
-        height: 354px;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .icon-body {

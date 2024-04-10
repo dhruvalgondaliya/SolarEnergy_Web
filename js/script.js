@@ -1,17 +1,17 @@
 // Sample data for demonstration
 const solarData = [
-    { image: "asset 9.jpeg", heading: "Solar Panels", description: "We Are pioneers of solar & renewable <br> energy industry" },
+    { image: "asset 7.jpeg", heading: "Solar Panels", description: "We Are pioneers of solar & renewable <br> energy industry" },
     { image: "asset 6.jpeg", heading: "Solar Panels", description: "We Are pioneers of solar & renewable <br> energy industry" },
 ];
 
 const windData = [
-    { image: "asset 7.jpeg", heading: "Hydropower Plants", description: "We Are pioneers of solar & renewable <br> energy industry" },
-    { image: "asset 4.jpeg", heading: "Hydropower Plants", description: "We Are pioneers of solar & renewable <br> energy industry" },
+    { image: "asset 5.jpeg",heading: "Wind Turbines" , description: "We Are pioneers of solar & renewable <br> energy industry" },
+    { image: "asset 4.jpeg", heading: "Wind Turbines" , description: "We Are pioneers of solar & renewable <br> energy industry" },
 ];
 
 const hydropowerData = [
-    { image: "asset 5.jpeg", heading: "Wind Turbines", description: "We Are pioneers of solar & renewable <br> energy industry" },
-    { image: "asset 8.jpeg", heading: "Wind Turbines", description: "We Are pioneers of solar & renewable <br> energy industry" },
+    { image: "asset 9.jpeg", heading: "Hydropower Plants", description: "We Are pioneers of solar & renewable <br> energy industry" },
+    { image: "asset 8.jpeg",heading: "Hydropower Plants", description: "We Are pioneers of solar & renewable <br> energy industry" },
 ];
 
 filter('all');
@@ -36,7 +36,6 @@ function filter(category) {
             return;
     }
 
-    // data in ui
     const dataContainer = document.getElementById('dataContainer');
     dataContainer.innerHTML = '';
     data.forEach(item => {

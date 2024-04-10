@@ -49,8 +49,8 @@
                 <a class="btn btn-square rounded-0 border-0 border-end border-secondary">
                     <i class="fa-brands fa-facebook-f" id="street"></i>
                 </a>
-                <a class="btn btn-square rounded-0 border-0 border-end border-secondary"><i
-                        class="fa-brands fa-twitter" id="street"></i></a>
+                <a class="btn btn-square rounded-0 border-0 border-end border-secondary"><i class="fa-brands fa-twitter"
+                        id="street"></i></a>
                 <a class="btn btn-square rounded-0 border-0 border-end border-secondary"><i
                         class="fa-brands fa-linkedin-in" id="street"></i></a>
                 <a class="btn btn-square"><i class="fa-brands fa-instagram" id="street"></i></a>
@@ -60,9 +60,9 @@
     </nav>
 
     <!------------------------------------ second nav Bar----------------------------------------->
-    <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-            <div class="container-fluid p-0">
+    <section >        
+        <nav class="navbar navbar-expand-lg  z-1" id="fix">
+            <div class="container-fluid p-0" >
                 <a class="navbar-brand  fw-bold" style="color: #51cc82;" id="solo">Solartec</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -72,37 +72,36 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link  active" aria-current="page"
+                            <a href="#home" class="nav-link  active" aria-current="page"
                                 style="color: #51cc82;font-size: 16px;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a href="#aboutus" class="nav-link">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICE</a>
+                            <a href="#Services" class="nav-link">SERVICE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PROJECT</a>
+                            <a href="#projects" class="nav-link">PROJECT</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 PAGES
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Feature</a></li>
-                                <li><a class="dropdown-item" href="#">Free Quote</a></li>
-                                <li><a class="dropdown-item" href="#">Our Team</a></li>
-                                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                <li><a class="dropdown-item" href="#workers">Feature</a></li>
+                                <li><a class="dropdown-item" href="#Free Quote">Free Quote</a></li>
+                                <li><a class="dropdown-item" href="#Our-Team">Our Team</a></li>
+                                <li><a class="dropdown-item" href="#Testimonial">Testimonial</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="#CONTACT  ">CONTACT</a>
                         </li>
                     </ul>
                     <div id="btn-new-one">
-                        <a class="btn-square" id="btn-new"> Get A Quote <i
-                                class="bi bi-arrow-right ms-2"></i></a>
+                        <a class="btn-square" id="btn-new"> Get A Quote <i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
 
                 </div>
@@ -111,7 +110,7 @@
     </section>
 
     <!----------------------------------First Section start---------------------------------------->
-    <section class="first_solar">
+    <section class="first_solar" id="home">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -160,7 +159,7 @@
     </section>
 
     <!---------------------------------------Second Section start--------------------------------------->
-    <section>
+    <section id="aboutus">
         <div class="container">
             <div class="row pt-5 pb-2">
                 <div class="diam  col-md-3 col-lg-3 col-sm-6 ">
@@ -214,7 +213,7 @@
     </section>
 
     <!---------------------------------------third Section start--------------------------------------->
-    <section class="renew">
+    <section class="renew" id="Services">
         <div class="container-fluid">
             <div class="row">
                 <div class=" col-lg-6 p-0">
@@ -243,7 +242,7 @@
     </section>
 
     <!---------------------------------------Four Section start--------------------------------------->
-    <section>
+    <section id="projects">
         <div class="container">
             <div class="row py-5">
                 <div class="text-center">
@@ -422,7 +421,7 @@
     </section>
 
     <!---------------------------------------Six Section start--------------------------------------->
-    <section>
+    <section id="Testimonial">
         <div class="container">
             <div class="text-center pt-5" id="project">
                 <h5 class="" style="color: #51cc82;">Our Projects</h5>
@@ -434,8 +433,8 @@
                         <li class="active " style="color: #51cc82;border-bottom: 2px solid #32C36C;"
                             onclick="filter('all')">All</li>
                         <li class="" onclick="filter('solar')">Solar Panels</li>
-                        <li class="" onclick="filter('wind')">Wind Turbines</li>
                         <li class="" onclick="filter('hydropower')">Hydropower Plants</li>
+                        <li class="" onclick="filter('wind')">Wind Turbines</li>
                     </ul>
                 </div>
             </div>
@@ -446,7 +445,7 @@
     </section>
 
     <!---------------------------------------Seven Section start--------------------------------------->
-    <section class="mt-4">
+    <section class="mt-4" id="Free Quote">
         <div class="container-fluid p-0">
             <div class="row my-2 m-auto" style="background-color: #F6F7F8;">
                 <div class="col-lg-6 p-0">
@@ -500,7 +499,7 @@
     </section>
 
     <!---------------------------------------Eight Section start--------------------------------------->
-    <section class="mt-4">
+    <section class="mt-4" id="Our-Team">
         <div class="container">
             <div class="row pt-4 pb-3 ">
                 <div class="text-center">
@@ -596,38 +595,37 @@
     </section>
 
     <!---------------------------------------Footer Section start--------------------------------------->
-    <footer>
+    <footer id="CONTACT">
         <div class="container-fluid bg-dark mt-5 pt-5">
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-lg-3 col-md-6 mt-5">    
+                    <div class="col-lg-3 col-md-6 mt-5">
                         <h5 class="text-light">Address</h5>
-                        <p class="mb-2" id="chenge-on" style="color: #9b9b9b;"><i class="fa-solid fa-location-dot me-3"></i>123 Street,
+                        <p class="mb-2" id="chenge-on" style="color: #9b9b9b;"><i
+                                class="fa-solid fa-location-dot me-3"></i>123 Street,
                             New York, USA</p>
-                        <p class="mb-2" id="chenge-on" style="color: #9b9b9b;"><i class="fa-solid fa-phone me-3"></i>+012 345 67890</p>
+                        <p class="mb-2" id="chenge-on" style="color: #9b9b9b;"><i
+                                class="fa-solid fa-phone me-3"></i>+012 345 67890</p>
                         <p class="mb-2" id="chenge-on" style="color: #9b9b9b;"><i
                                 class="fa-solid fa-envelope me-3"></i>info@example.com</p>
                         <div class="d-flex pt-2">
-                            <button class=" btn-last text-center me-1"><i
-                                    class="fa-brands fa-twitter "></i></button>
-                            <button class=" btn-last text-center me-1"><i
-                                    class="fa-brands fa-facebook-f "></i></button>
-                            <button class=" btn-last text-center me-1"><i
-                                    class="fa-brands fa-youtube "></i></button>
+                            <button class=" btn-last text-center me-1"><i class="fa-brands fa-twitter "></i></button>
+                            <button class=" btn-last text-center me-1"><i class="fa-brands fa-facebook-f "></i></button>
+                            <button class=" btn-last text-center me-1"><i class="fa-brands fa-youtube "></i></button>
                             <button class=" btn-last text-center me-1"><i
                                     class="fa-brands fa-linkedin-in "></i></button>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 mt-5" id="gallery">
                         <h5 class="text-light">Quick Links</h5>
-                        <a  class="box btn-link" href="#"> About Us</a>
+                        <a class="box btn-link" href="#"> About Us</a>
                         <a class="box btn-link" href="#">Contact Us</a>
                         <a class="box btn-link" href="#">Our Services</a>
                         <a class="box btn-link" href="#">Terms & Condition</a>
                         <a class="box btn-link" href="#">Support</a>
                     </div>
                     <div class="col-lg-3 col-md-6 mt-5" id="gallery">
-                        <h5 class="text-light mb-4" >Project Gallery</h5>
+                        <h5 class="text-light mb-4">Project Gallery</h5>
                         <div class="row g-2">
                             <div class="col-4"><img class="img-fluid rounded" src="./img/asset 18.jpeg"></div>
                             <div class="col-4"><img class="img-fluid rounded" src="./img/asset 19.jpeg"></div>
@@ -661,8 +659,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <!-- main js link -->
     <script src="./js/script.js"></script>

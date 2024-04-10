@@ -266,7 +266,14 @@
     .signUP {
         left: 221px;
     }
-
+   
+    
+    #fix {
+        position: fixed;
+        z-index: 10px;
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.783);
+    }
 
 }
 
@@ -442,6 +449,17 @@
 
     .signUP {
         left: 263px;
+    }
+    #home {
+        position: relative;
+        top: 36px;
+    }
+    
+    #fix {
+        position: fixed;
+        z-index: 10px;
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.783);
     }
 }
 
@@ -637,6 +655,17 @@
     .signUP {
         left: 214px;
     }
+    #home {
+        position: relative;
+        top: 36px;
+    }
+    
+    #fix {
+        position: fixed;
+        z-index: 10px;
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.783);
+    }
 }
 
 /*================== Size 320px to 374px====================================*/
@@ -812,7 +841,7 @@
     .testing p {
         line-height: 21px;
         font-size: 16px;
-        
+
     }
 
     .testing h2 {
@@ -846,4 +875,16 @@
         left: 174px;
     }
 
+    #home {
+        position: relative;
+        top: 36px;
+    }
+    
+    #fix {
+        position: fixed;
+        z-index: 10px;
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.783);
+    }
+  
 }
